@@ -1,0 +1,24 @@
+{
+    "name": "phpxmlrpc/adodb-xmlrpc-proxy",
+    "description": "",
+    "license": "BSD-3-Clause",
+    "homepage": "https://github.com/gggeek/adodb-xmlrpc-proxy",
+    "keywords": [ "xmlrpc", "webservices", "jsonrpc", "adodb", "database", "proxy" ],
+    "require": {
+        "php": "^5.3.0 || ^7.0 || ^8.0",
+        "phpxmlrpc/phpxmlrpc": "^4.5.1"
+    },
+    "require-dev": {
+        "ext-curl": "*",
+        "phpunit/phpunit": "^4.8 || ^5.0 || ^8.5.12",
+        "phpunit/phpunit-selenium": "*",
+        "yoast/phpunit-polyfills": "*"
+    },
+    "suggest": {
+        "phpxmlrpc/jsonrpc": "Needed for jsonrpc support"
+    },
+    "autoload": {
+    },
+    "config": {
+    }
+}
